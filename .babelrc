@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "resources": "./src/assets/resources",
+          "components": "./src/assets/components",
+          "sections": "./src/assets/sections",
+          "reusecore": "./src/assets/reusecore"
+        }
+      }
+    ]
+  ]
+}
