@@ -9,9 +9,9 @@
 /coverage
 
 # next.js
-/.next/
-/out/
-/dist/
+/.next
+/out
+/dist
 
 # src
 /src/assets
